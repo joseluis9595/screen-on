@@ -1,8 +1,3 @@
-!apks/
-0\ clave
-.DS_Store
-
-
 # Built application files
 *.apk
 *.ap_
@@ -59,3 +54,9 @@ freeline.py
 freeline/
 freeline_project_description.json
 
+
+
+#### My Rules ####
+!/apks/*
+0\ clave
+.DS_Store
