@@ -1,6 +1,5 @@
 package com.jlaq.keepscreenon;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -9,7 +8,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.widget.Toast;
@@ -87,7 +85,6 @@ public class MainActivity extends Activity {
 	 * and when the user clicks it, it restores the user's previous
 	 * screen timeout, saved in the constant previousScreenTimeout
 	 */
-	@TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 	public void displayNotification() {
 		// Create intent pointing to main activity
 		Intent notificationIntent = new Intent(context, MainActivity.class);

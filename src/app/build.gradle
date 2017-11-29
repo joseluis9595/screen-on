@@ -10,7 +10,7 @@ android {
     buildToolsVersion "27.0.1"
     defaultConfig {
         applicationId "com.jlaq.keepscreenon"
-        minSdkVersion 9
+        minSdkVersion 16
         targetSdkVersion 26
 
         // Calculate versionCode and versionName programatically
